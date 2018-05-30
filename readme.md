@@ -18,5 +18,5 @@ docker run -e VC_API_TOKEN={token} canopytax/vividcortex
 
 or use a k8s deployment:
 ```
-kubectl run vividcortex --env="VC_API_TOKEN={token_here}" --image=canopytax/vividcortex --requests=cpu=200m
+kubectl run vividcortex --env VC_API_TOKEN={token_here} --image=canopytax/vividcortex --requests=cpu=200m
 ```
